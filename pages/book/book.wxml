@@ -3,14 +3,14 @@
   <view class='item'>
     <text>姓名：</text>
     <view>
-      <text>韩接兴</text>
+      <text>jxh</text>
       <!-- <text class="iconfont icon-right font_color" /> -->
     </view>
   </view>
   <view class='item'>
     <text>联系电话：</text>
     <view>
-      <text>15396618131</text>
+      <text>12345678901</text>
       <!-- <text class="iconfont icon-right font_color" /> -->
     </view>
   </view>
