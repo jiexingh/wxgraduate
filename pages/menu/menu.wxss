@@ -1,27 +1,49 @@
 /* pages/menu/menu.wxss */
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.v-menu {
   margin: 20rpx;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.left-box{
-    flex: 0 0 150rpx;
-    border-right:1rpx solid #D8D8D8;
-}
-.menu-item{
-    height: 50rpx;
-    padding: 20rpx 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size:28rpx;
-    border-left: 6rpx solid #fff;
+
+.left-box {
+  flex: 0 0 150rpx;
+  border-right: 1rpx solid #d8d8d8;
 }
 
-/* .right-box{
-    flex: 1;
-    transition: all 500ms ease-in-out;
-} */
+.menu-item {
+  height: 50rpx;
+  padding: 20rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  border-left: 6rpx solid #fff;
+}
+
+.bill-box {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100rpx;
+  position: fixed;
+  bottom: 20rpx;
+  border-radius: 30rpx;
+  background-color: #000;
+  opacity: 0.3;
+}
+
+.bill-price-box {
+  width: 90%;
+
+}

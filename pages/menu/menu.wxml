@@ -1,11 +1,25 @@
 <!--pages/menu/menu.wxml-->
 <view class='container'>
- 
-  <v-menu/>
-  <v-menu/>
-  <v-menu/>
-  <v-menu/>
-  <v-menu/>
-  <v-menu/>
-  
+  <view class='v-menu'>
+    <v-menu bind:menuTap="menuTap" />
+    <v-menu/>
+    <v-menu/>
+    <v-menu/>
+    <v-menu/>
+    <v-menu/>
+     <v-menu/>
+    <v-menu/>
+    <v-menu/>
+    <v-menu/>
+    <v-menu/>
+  </view>
+
+  <!-- m -->
+  <view class='bill-box'>
+    <view class='bill-price-box'>
+      <text>￥66</text>
+      <text>2</text>
+    </view>
+    <view></view>
+  </view>
 </view>

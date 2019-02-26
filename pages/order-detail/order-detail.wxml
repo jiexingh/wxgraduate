@@ -1,2 +1,4 @@
 <!--pages/order-detail/order-detail.wxml-->
-<text>pages/order-detail/order-detail.wxml</text>
+<view class='container'>
+  <v-order/>
+</view>

@@ -18,9 +18,12 @@
 }
 
 .menu-detail {
+  display: flex;
+  flex-direction: column-reverse;
   text-align: center;
   margin-bottom: 20rpx;
   color: #333;
+  background-color: #fff;
 }
 
 .menu-name {
@@ -31,13 +34,15 @@
   margin-left: 20rpx;
   font-size: 24rpx;
 }
-.editico{
+
+.editico {
   position: relative;
-  bottom: 320rpx;
+  bottom: 350rpx;
   left: 280rpx;
   width: 32rpx;
-  height: 32rpx
+  height: 32rpx;
 }
+
 .editico>image {
   width: 32rpx;
   height: 32rpx;
