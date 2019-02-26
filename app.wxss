@@ -1,0 +1,4 @@
+/**app.wxss**/
+
+/* 导入图标css */
+@import 'utils/css/aliicons.wxss';

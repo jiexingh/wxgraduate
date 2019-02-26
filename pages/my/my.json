@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-image-button": "/components/image-button/index",
+    "v-order": "/components/order/index",
+    "v-mask": "/components/mask/index"
+  },
+  "navigationBarTitleText": "个人中心"
+}

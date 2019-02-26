@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/book/book",
+    "pages/my/my",
+    "pages/order-detail/order-detail",
+    "pages/menu/menu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#36b9af",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/tabBar/home.png",
+        "selectedIconPath": "images/tabBar/home@selected.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "预定",
+        "iconPath": "images/tabBar/book.png",
+        "selectedIconPath": "images/tabBar/book@selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tabBar/my.png",
+        "selectedIconPath": "images/tabBar/my@selected.png"
+      }
+    ],
+    "selectedColor": "#36b9af",
+    "borderStyle": "white",
+    "backgroundColor": "#fff"
+  }
+}

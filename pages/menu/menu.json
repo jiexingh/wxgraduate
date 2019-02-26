@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-menu": "/components/menu/index"
+  },
+  "navigationBarTitleText": "菜单"
+}

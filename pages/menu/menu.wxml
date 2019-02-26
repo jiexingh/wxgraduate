@@ -1,0 +1,11 @@
+<!--pages/menu/menu.wxml-->
+<view class='container'>
+ 
+  <v-menu/>
+  <v-menu/>
+  <v-menu/>
+  <v-menu/>
+  <v-menu/>
+  <v-menu/>
+  
+</view>

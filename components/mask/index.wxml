@@ -1,0 +1,4 @@
+<!--components/mask/index.wxml-->
+<view class='container my-class' bindtap='maskTap'>
+  <slot name="content" />
+</view>

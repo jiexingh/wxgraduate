@@ -1,0 +1,55 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+  <!-- 背景栏 -->
+  <image src="/images/my/my@bg.png" class="bg" />
+
+  <!-- 头像区 -->
+  <!-- 这个地方注意open-type 与组件属性的不同 -->
+  <!-- 未授权 -->
+  <v-image-button wx:if="{{!authorized}}" open-type="getUserInfo" class="avatar-position" bind:getUserInfo="getUserInfo">
+    <image slot="img" class='avatar' src="/images/my/my.png" />
+  </v-image-button>
+  <!-- 已授权 -->
+  <view wx:if="{{authorized}}" class="avatar-container avatar-position">
+    <image class='avatar' src="{{userInfo.avatarUrl}}" />
+    <text>{{userInfo.nickName}}</text>
+  </view>
+
+  <!-- 关于栏 -->
+  <view class="about-container">
+    <view class="about-us" bind:tap='aboutTap'>
+      <text class="iconfont  icon-aboutus" />
+      <text class="description">关于</text>
+    </view>
+    <view class="about-us" bind:tap='connectionTap'>
+      <text class="iconfont icon-bohaoxianxing" />
+      <text class="description">联系我</text>
+    </view>
+  </view>
+
+  <!-- 订单内容 -->
+
+  <!-- 功能区 -->
+  <view class='user_control'>
+    <view class='item_line border_line' bindtap='controlItemTap' data-controlText="已完成">
+      <view class='mgl_20'>已完成</view>
+      <view>
+        <text class='order-num'>{{finishNum}}</text>
+        <!-- <text class="iconfont icon-right font_color" /> -->
+      </view>
+    </view>
+    <view class='item_line border_line' bindtap='controlItemTap' data-controlText="本地暂存">
+      <view class='mgl_20'>本地暂存</view>
+      <text class='order-num'>{{localNum}}</text>
+      <!-- <text class="iconfont icon-right font_color" /> -->
+    </view>
+  </view>
+</view>
+
+<image src="{{img}}"></image>
+<!-- 关于的遮罩 -->
+<v-mask wx:if="{{showMask}}" bind:maskTap="maskTap" my-class="about-mask-box">
+  <view slot="content" class='about-mask-box'>
+    <text class='about-inner-text'>{{aboutText}}</text>
+  </view>
+</v-mask>

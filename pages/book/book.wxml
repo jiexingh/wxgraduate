@@ -1,0 +1,56 @@
+<!--pages/book/book.wxml-->
+<view class='container'>
+  <view class='item'>
+    <text>姓名：</text>
+    <view>
+      <text>韩接兴</text>
+      <!-- <text class="iconfont icon-right font_color" /> -->
+    </view>
+  </view>
+  <view class='item'>
+    <text>联系电话：</text>
+    <view>
+      <text>15396618131</text>
+      <!-- <text class="iconfont icon-right font_color" /> -->
+    </view>
+  </view>
+  <view class='item'>
+    <text>预定时间：</text>
+    <view>
+      <text>2019-3-15</text>
+      <!-- <text class="iconfont icon-right font_color" /> -->
+    </view>
+  </view>
+
+  <view class='item'>
+    <text>人数：</text>
+    <view>
+      <text class="iconfont icon-jian" />
+      <text class='num'>3</text>
+      <text class="iconfont icon-add" />
+    </view>
+  </view>
+  <view class='item' bindtap='menuTap'>
+    <text>点菜：</text>
+    <view>
+      <text>5</text>
+      <!-- <text class="iconfont icon-right font_color" /> -->
+    </view>
+  </view>
+  <view class='item'>
+    <text>备注：</text>
+  </view>
+  <view class='textareabox'>
+    <textarea placeholder='请输入备注信息' adjust-position="true"></textarea>
+  </view>
+  <!-- <input bindinput='inputTap '></input> -->
+  <!-- 按钮区 -->
+  <view class='btn_box '>
+    <button plain='true '>暂存</button>
+    <button plain='true ' bindtap='submitTap '>提交</button>
+  </view>
+
+
+</view>
+<!-- 加载动画组件 -->
+<!-- <v-loading/> -->

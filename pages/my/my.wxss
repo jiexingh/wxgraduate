@@ -1,0 +1,118 @@
+/* pages/my/my.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg {
+  width: 750rpx;
+  height: 574rpx;
+}
+
+.avatar-position {
+  position: absolute;
+  top: 255rpx;
+}
+
+.my-img {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 120rpx;
+  height: 120rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.about-container {
+  padding: 0 100rpx;
+  width: 550rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 440rpx;
+}
+
+.about-us image {
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.preview-container {
+  margin-top: 30rpx;
+  width: 690rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 0 30rpx;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.preview {
+  margin-bottom: 30rpx;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.about-container>view:nth-child(2) {
+  margin-top: -5rpx;
+}
+
+.about-mask-box {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  font-size: 28rpx !important;
+}
+
+.about-inner-text {
+  margin: 50rpx;
+  color: #fff;
+}
+
+.user_control {
+  margin-top: 20rpx;
+  width: 100%;
+  font-size: 30rpx;
+}
+
+.item_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 76rpx;
+  background-color: white;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.border_line {
+  border-bottom: 1rpx solid #f3f3f3;
+}
+
+.order-num {
+  color: #999;
+  margin-right: 40rpx;
+}

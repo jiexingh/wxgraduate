@@ -1,0 +1,44 @@
+/* components/menu/index.wxss */
+
+.container {
+  height: 300rpx;
+  width: 300rpx;
+  border-radius: 10rpx;
+  margin-right: 0;
+  margin-bottom: 10rpx;
+  background-color: #f5f6f5;
+  text-align: center;
+}
+
+.container>image {
+  margin: 10rpx auto 0 auto;
+  width: 80%;
+  height: 220rpx;
+  border-radius: 10rpx;
+}
+
+.menu-detail {
+  text-align: center;
+  margin-bottom: 20rpx;
+  color: #333;
+}
+
+.menu-name {
+  font-size: 28rpx;
+}
+
+.price {
+  margin-left: 20rpx;
+  font-size: 24rpx;
+}
+.editico{
+  position: relative;
+  bottom: 320rpx;
+  left: 280rpx;
+  width: 32rpx;
+  height: 32rpx
+}
+.editico>image {
+  width: 32rpx;
+  height: 32rpx;
+}

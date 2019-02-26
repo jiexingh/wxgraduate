@@ -1,0 +1,12 @@
+<!--components/menu/index.wxml-->
+<view class='container'>
+  <image src="http://z.cn/images/product-dryfruit@3.png" />
+  <view class='menu-detail'>
+    <text class='menu-name'>泥鳅豆腐锅</text>
+    <text class='price'>￥66</text>
+  </view>
+  <view class='editico'>
+    <!-- <image src="img/delete.png" /> -->
+    <image src="img/yes.png" />
+  </view>
+</view>
